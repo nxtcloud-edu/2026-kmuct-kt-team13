@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# build
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# env
+.env
+.env.local
+
+# crawler runtime cache
+crawler/notices.db
+crawler/notices.db-shm
+crawler/notices.db-wal
+__pycache__/
+*.py[cod]
